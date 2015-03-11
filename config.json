@@ -1,0 +1,12 @@
+{
+	"common": {
+		"ajax": true,
+		"browser": true,
+		"task": true,
+		"unittest": true,
+		"user": true,
+		"utils": true
+	},
+	"debug": true,
+	"theme": "default"
+}
