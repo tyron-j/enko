@@ -23,6 +23,7 @@ enko.inject(['utils'],
 
 				// animation:
 
+				// animate is now part of Element.prototype
 				animate: function (options) { // to-do: create a fallback in case requestAnimationFrame is not available
 					cancelAnimationFrame(this.animation);
 

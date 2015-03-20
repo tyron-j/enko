@@ -13,7 +13,7 @@
 		[].some.call(scripts, function (script) {
 			enkoPath = script.getAttribute('src');
 
-			if (/enko\.js$/i.test(enkoPath)) {
+			if (/enko\.js$/i.test(enkoPath)) { // to-do: make this more accurate
 				return true;
 			}
 		});
